@@ -1,7 +1,6 @@
-package demo
+package addition
 
 import (
-	_ "github.com/influxdata/influxdb1-client" // this is important because of the bug in go mod
 	"github.com/project-flogo/core/activity"
 )
 
@@ -11,6 +10,8 @@ func init() {
 
 //var activityMd = activity.ToMetadata(&Input{}, &Output{})
 var activityMd = activity.ToMetadata(&Input{}, &Output{})
+
+//var activityMd = activity.ToMetadata(&Input{}, &Output{})
 
 //New optional factory method, should be used if one activity instance per configuration is desired
 func New(ctx activity.InitContext) (activity.Activity, error) {
