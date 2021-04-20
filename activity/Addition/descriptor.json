@@ -7,12 +7,12 @@
     "homepage": "https://github.com/shaliniGovindaNayak/demo",
     "input": [
       {
-        "name": "num1",
+        "name": "Num1",
         "type": "int",
         "required": true
       },
       {
-        "name":"num2",
+        "name":"Num2",
         "type":"int",
         "required":true
       }

@@ -1,4 +1,4 @@
-package Addition
+package demo
 
 import (
 	_ "github.com/influxdata/influxdb1-client" // this is important because of the bug in go mod
